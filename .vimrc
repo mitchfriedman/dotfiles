@@ -1,8 +1,9 @@
 set shell=zsh
 set t_Co=256
+set term=screen-256color
 
 syntax on 
-colorscheme tomorrow-night
+colorscheme badwolf
 set bg=dark
 
 set hlsearch
@@ -50,6 +51,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
+Plugin 'junegunn/seoul256.vim'
 
 call vundle#end()
 filetype plugin indent on 
