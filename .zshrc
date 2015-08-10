@@ -9,6 +9,8 @@ export PATH="/usr/local/Cellar/php55/5.5.17/bin:/usr/local/bin:/usr/local/bin:/u
 source $ZSH/oh-my-zsh.sh
 source $HOME/code/z/z.sh
 
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 source ~/.zsh/zsh-autosuggestions/autosuggestions.zsh
 
 zle-line-init() {
