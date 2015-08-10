@@ -18,6 +18,8 @@ set number
 set showcmd
 set showmatch
 
+set laststatus=0
+
 set noerrorbells
 set novisualbell
 set magic
@@ -50,8 +52,8 @@ set rtp+=/Users/Mitch/code/ctrlp.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'bling/vim-airline'
 Plugin 'junegunn/seoul256.vim'
+Plugin 'bling/vim-airline'
 
 call vundle#end()
 filetype plugin indent on 
@@ -66,3 +68,5 @@ if $TERM_PROGRAM =~ "iTerm"
     let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode
 endif
 
+autocmd BufEnter * let &titlestring = ' ' . expand("%:t")
+set title
