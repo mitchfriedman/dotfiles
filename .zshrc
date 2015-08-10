@@ -24,6 +24,7 @@ alias gs="git status"
 alias push="git push origin master"
 alias cl="clear"
 alias python="python3"
+alias python2="/usr/bin/python2.6"
 
 export PATH="/usr/local/heroku/bin:$PATH"
 
