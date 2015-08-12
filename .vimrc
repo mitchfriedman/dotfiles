@@ -19,6 +19,9 @@ set showcmd
 set showmatch
 
 set laststatus=0
+set noruler
+set noshowcmd
+set noshowmode
 
 set noerrorbells
 set novisualbell
@@ -39,9 +42,6 @@ else
     let &t_SI = "\<Esc>]50;CursorShape=1\x7"
     let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
-
-
-set laststatus=2
 
 set nocompatible              
 filetype off
