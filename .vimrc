@@ -48,7 +48,8 @@ filetype off
 filetype indent on
 
 set rtp+=~/.vim/bundle/Vundle.vim
-set rtp+=/Users/Mitch/code/ctrlp.vim
+set rtp+=~/.vim/bundle/ctrlp.vim
+"set rtp+=~/.vim/bundle/nerdtree
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
@@ -57,6 +58,8 @@ Plugin 'bling/vim-airline'
 
 call vundle#end()
 filetype plugin indent on 
+
+execute pathogen#infect()
 
 augroup myvimrc
     au!
