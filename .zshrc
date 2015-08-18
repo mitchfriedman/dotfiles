@@ -4,7 +4,7 @@ ZSH_THEME="imajes"
 
 plugins=(git)
 
-export PATH="/usr/local/Cellar/php55/5.5.17/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Users/Mitch/.composer/vendor/bin"
+export PATH="/usr/local/Cellar/php55/5.5.17/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Users/Mitch/.composer/vendor/bin:/Users/Mitch/code/moz-git-tools"
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/code/z/z.sh
