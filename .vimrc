@@ -29,6 +29,9 @@ set magic
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 
+let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
+let g:pydiction_menu_height = 3
+
 let g:ctrlp_custom_ignore = '\vbuild/|dist/|venv/|target/|[\/]\.(o|swp|pyc|egg|git|hg|svn)$'
 let g:ctrlp_match_window = 'bottom,order:ttb'
 let g:ctrlp_switch_buffer = 0
@@ -58,6 +61,7 @@ Plugin 'bling/vim-airline'
 
 call vundle#end()
 filetype plugin indent on 
+filetype plugin on
 
 execute pathogen#infect()
 
