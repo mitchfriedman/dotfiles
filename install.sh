@@ -9,12 +9,12 @@ folders=".vim .zsh .oh-my-zsh"
 echo "Replacing files into $new_dir"
 for file in $files; do
     rm ~/$file > /dev/null
-    cp $file ~/$file
+    cp $file ~/$file > /dev/null
 done
 
 
 for file in $folders; do
     rm -rf ~/$file > /dev/null
-    cp -r $file ~/$file
+    cp -r $file ~/$file > /dev/null
 done
 
