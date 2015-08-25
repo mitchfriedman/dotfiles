@@ -27,6 +27,8 @@ set noerrorbells
 set novisualbell
 set magic
 
+let mapleader=","
+
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 
 let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
@@ -36,6 +38,7 @@ let g:ctrlp_custom_ignore = '\vbuild/|dist/|venv/|target/|[\/]\.(o|swp|pyc|egg|g
 let g:ctrlp_match_window = 'bottom,order:ttb'
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
+let g:ctrlp_max_files=0
 
 " allows cursor change in tmux mode
 if exists('$TMUX')
@@ -52,7 +55,7 @@ filetype indent on
 
 set rtp+=~/.vim/bundle/Vundle.vim
 set rtp+=~/.vim/bundle/ctrlp.vim
-"set rtp+=~/.vim/bundle/nerdtree
+set rtp+=~/.vim/bundle/nerdtree
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
