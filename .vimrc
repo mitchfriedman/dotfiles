@@ -18,6 +18,9 @@ set number
 set showcmd
 set showmatch
 
+set mouse=a
+set ttymouse=xterm
+
 set laststatus=0
 set noruler
 set noshowcmd
