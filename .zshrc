@@ -25,7 +25,7 @@ alias push="git push origin master"
 alias cl="clear"
 alias python="python3"
 alias python2="/usr/bin/python2.6"
-alias py2k="unalias python"
+alias py2kify="unalias python"
 alias fire_run="./mach build toolkit/devtools browser && ./mach run"
 
 export PATH="/usr/local/heroku/bin:$PATH"
