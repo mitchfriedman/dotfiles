@@ -3,7 +3,7 @@
 dir="$PWD"
 new_dir="~"
 files=".zshrc .vimrc .tmux.conf"
-folders=".vim .zsh .oh-my-zsh"
+folders=".vim .zsh .oh-my-zsh .tmux-plugins"
 
 
 echo "Replacing files into $new_dir"
