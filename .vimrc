@@ -10,9 +10,11 @@ set hlsearch
 set incsearch
 
 set smartindent
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set expandtab
+
+set clipboard^=unnamed  
 
 set number
 set showcmd
@@ -64,6 +66,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'bling/vim-airline'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype plugin indent on 
@@ -83,3 +86,5 @@ endif
 
 autocmd BufEnter * let &titlestring = ' ' . expand("%:t")
 set title
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
