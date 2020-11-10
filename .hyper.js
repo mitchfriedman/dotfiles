@@ -143,6 +143,16 @@ module.exports = {
       initialWorkingDirectory: '~/code'
     },
 
+    hyperStatusLine: {                                                                 
+      footerTransparent: false
+    },
+
+    hyperBorder: {
+      borderWidth: "2px",
+      borderRadiusInner: "5px",
+      borderColors: ["#ffa500"]
+    },
+
     materialBox: {
       scheme: 'base16-ocean-dark',
       highlightSelectedTab: true,
@@ -170,7 +180,9 @@ module.exports = {
     'hyper-material-box',
     "hyper-highlight-active-pane",
     "hyper-active-tab",
-    "hyper-tabs-enhanced"
+    "hyper-tabs-enhanced",
+    "hyper-statusline",
+    "hyperborder"
   ],
 
   // in development, you can create a directory under
